@@ -38,14 +38,14 @@
         }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: "JetBrains Mono", "Share Tech Mono", monaco, courier;
             background-color: var(--bg);
             color: var(--text-color);
             height: 100vh;
             width: 100vw;
             overflow: hidden;
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             position: relative;
         }
 
@@ -712,4 +712,5 @@
             .highlight-text {
                 font-size: 1.2rem;
             }
+
         }
